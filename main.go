@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/russross/blackfriday"
+	"github.com/sim4life/go_hero/Godeps/_workspace/src/github.com/russross/blackfriday"
 )
 
 func GenerateMarkdown(rw http.ResponseWriter, r *http.Request) {
